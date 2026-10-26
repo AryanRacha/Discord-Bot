@@ -11,12 +11,7 @@ CLIST_API = os.getenv("CLIST_API")
 
 # Hardcoded resource IDs for the target platforms to allow single-query fetching
 # 102: leetcode.com, 1: codeforces.com, 2: codechef.com
-PLATFORM_IDS = {
-    "leetcode.com": 102,
-    "codeforces.com": 1,
-    "codechef.com": 2,
-    "atcoder.jp": 93,
-}
+
 
 # In-memory cache to prevent exhausting Clist API rate limits
 _CACHE = {
